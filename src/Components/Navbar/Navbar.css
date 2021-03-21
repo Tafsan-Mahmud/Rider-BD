@@ -1,0 +1,22 @@
+.nav-login-btn{
+    background-color: rgb(238, 78, 29);
+    border-radius: 5px;
+    color: white !important ;
+    padding-left: 10px !important;
+    width: 63px;
+    height: 40px;
+}
+
+.nav-login-btn:hover{
+    background-color: rgb(224, 55, 4);
+    border-radius: 5px;
+    color: white !important ;
+}
+.nav-color{
+    color: white !important;
+    font-weight: 500;
+}
+.shadow{
+    box-shadow: 5px 5px 10px rgb(250, 204, 51) ;
+   
+}

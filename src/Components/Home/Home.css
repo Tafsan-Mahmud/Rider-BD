@@ -1,0 +1,17 @@
+.background{
+  background: url(1ride.jpg) no-repeat;
+  background-size: cover;
+  height: 93vh;
+
+}
+
+.gap{
+    margin: 20px;
+    background-color: rgb(255, 254, 246);
+}
+.img-sizing{
+    width: 100%;
+}
+.top{
+   padding-top: 3%;
+}

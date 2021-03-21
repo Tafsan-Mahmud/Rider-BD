@@ -1,0 +1,64 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+section{
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+}
+section .choice-section {
+    width: 40%;
+    height: 100%;
+    position: relative;
+    display: flex;
+    justify-content: center;
+
+}
+section .map-section{
+    width: 60%;
+    height: 100%;
+}
+section .map-section img{
+    margin-top: 3%;
+}
+.lable{
+    margin-bottom: 5px;
+    
+}
+
+section .choice-section  input{
+    width: 100%;
+    padding: 5px 15px ;
+    outline: none;
+    font-weight:400;
+    border: 1px solid #fcfcfc;
+    font-size: 16px;
+    letter-spacing: 1px;
+    color: #607d8b;
+    background: #fff;
+    border-radius:12px;
+}
+section .choice-section input[type="submit"]{
+    background: #ff4584;
+    color: #fff;
+    outline: none;
+    border: none;
+    font-weight: 500;
+    cursor: pointer;
+    margin-top: 15px;
+
+}
+section .choice-section input[type="submit"]:hover{
+    background: #e72767;
+}
+.full-form{
+    height: 30%;
+    margin-top:5%;
+    padding: 3%;
+    border-radius: 10px;
+    background: #d4eaf7;
+}
