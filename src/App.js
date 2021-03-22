@@ -9,10 +9,12 @@ import NoMatch from './Components/NoMatch/NoMatch';
 import Login2 from './Components/LogIn2/LogIn2' 
 import Stock from './Components/Stock/Stock';
 import PrivetRoute from './Components/PrivetRoute/PrivetRoute';
+import Strcture from './Components/Struture/Strcture';
 
 export const UserContex = createContext()
 
 function App() {
+  
   const [LogegInUser , setLogedInUser] = useState({});
   return ( <UserContex.Provider value={[LogegInUser , setLogedInUser]}>
     <Router>
@@ -27,11 +29,17 @@ function App() {
         <Route path="/login">
         <Login2></Login2>
         </Route>
+        <Route path="/strcture">
+          <Strcture></Strcture>
+        </Route>
         <PrivetRoute path="/GoToRide">
           <GoToRide></GoToRide>
         </PrivetRoute>
-        <Route path="/check">
-          <Stock></Stock>
+        <PrivetRoute path="/ride/:id">
+          <GoToRide></GoToRide>
+        </PrivetRoute>
+        <Route path="extra">
+         <Stock></Stock>
         </Route>
         <Route path="*">
           <NoMatch></NoMatch>

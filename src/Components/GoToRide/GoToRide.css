@@ -58,7 +58,83 @@ section .choice-section input[type="submit"]:hover{
 .full-form{
     height: 30%;
     margin-top:5%;
+    margin: 4%;
     padding: 3%;
     border-radius: 10px;
     background: #d4eaf7;
+}
+section .result-div{
+    width: 90%;
+    position: relative;
+    justify-content: center;
+    margin-top: 5%;
+    
+}
+section .result {
+    display: flex;
+    width: 55%;
+    align-items: center;
+    text-align: center;
+    background: #d4eaf7;
+    margin: 10px;
+    padding: 5px;
+    border-radius: 5px;
+}
+section .result img{
+    width: 25%;
+}
+.result1-name{
+    width: 55%;
+    align-items: center;
+    background: #e73225;
+    margin: 10px;
+    padding: 5px;
+    border-radius: 5px;
+    color: #d4eaf7;
+    justify-content: center;
+}
+.result h5 {
+    margin-left: 10px;
+}
+.result1-name h4{
+    margin-left: 50px;
+}
+.result1-name h3{
+    margin-left: 20px;
+}
+
+@media(max-width: 878px){
+    .result1-name {
+        width: 91%;
+        align-items: center;
+        background: #e73225;
+        margin: 10px;
+        padding: 5px;
+        border-radius: 5px;
+        color: #d4eaf7;
+        justify-content: center;
+    }
+    section .result {
+        display: flex;
+        width: 91%;
+        align-items: center;
+        text-align: center;
+        background: #d4eaf7;
+        margin: 10px;
+        padding: 5px;
+        border-radius: 5px;
+    }
+    section .map-section img {
+        margin-top: 3%;
+        width: 100%;
+        
+    }
+    section .choice-section {
+        width: 100%;
+        height: 100%;
+        position: relative;
+        display: flex;
+        justify-content: center;
+       
+    }
 }

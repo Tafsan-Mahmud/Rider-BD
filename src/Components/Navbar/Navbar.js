@@ -18,8 +18,8 @@ function Navbar() {
                                 <li class="nav-item">
                                     <Link class="nav-link active nav-color" aria-current="page" to="/GoToRide">Destination</Link>
                                 </li>
-                                <li class="nav-item ">
-                                    <Link class="nav-link active nav-color" aria-current="page" to="/check">Contact</Link>
+                                <li class="nav-item">
+                                    <Link class="nav-link active nav-color" aria-current="page" to="/extra">Contact</Link>
                                 </li>
                                 <li class="nav-item">
                                     <Link class="nav-link active  nav-login-btn" aria-current="page" to="/login">log in</Link>

@@ -126,12 +126,10 @@ section .contentBx .fromBx .sci li{
     cursor: pointer;
     
 }
-/* section .contentBx .fromBx .sci li:hover{
-    background: #ff4584;
-} */
+
 section .contentBx .fromBx .sci li img{
     transform: scale(0.5);
-    /* filter: invert(1); */
+    
 }
 section .contentBx .fromBx .sci img{
     width: 60px;
